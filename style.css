@@ -11,7 +11,18 @@ body {
 
   article {
     color: black;
+    background-color: hsla(196, 100%, 50%, .9); 
+    border-width: 1px;
+    border-style: double;
     padding: 20px;
+    width: 90% ;
+  }
+
+  h2 {
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 50px;
+      font-size:xx-large;
   }
 
   #header1 {
@@ -24,18 +35,18 @@ body {
     text-align: center;
   }
 
-  #navbar {
+  #nav1 {
     overflow: hidden;
     background-color: black;
     position:fixed;
     top: 0;
-    width: 99.5%;
+    width: 99.7%;
     border-style:inset;
     border-color: hsla(196, 100%, 50%, .9);
-    border-width: 4px;
+    border-width: 2px;
   }
 
-  #navbar a href{
+  #nav1 a {
     float: left;
     display: inline;
     text-align: center;
@@ -65,10 +76,13 @@ body {
     width: 40%;
     margin-top: 10px;
     max-width: 500px;
-  }
+    border-width: 1px;
+    border-style:double;
+    }
   
   footer {
     clear: left;
+    text-align: center;
     padding: 10px;
     background: ; 
     text-align: ;
@@ -78,7 +92,7 @@ body {
     background-color: black;
     display: inline;
     color: white;
-    border: 1px solid white;
+    border: 0px solid white;
     margin: 10px;
     padding: 10px 20px;
     text-align: center;
