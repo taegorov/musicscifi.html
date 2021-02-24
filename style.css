@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: #e06965;
+    background-color: #b2dbac;
     margin: 0;
     height: 100%;
     font-family: tahoma;
@@ -11,7 +11,7 @@ body {
 
   article {
     color: black;
-    background-color: #b2dbac;
+    background-color: #e06965;
     border-width: 4px;
     border-style: solid;
     border-radius: 8px;
@@ -52,7 +52,7 @@ nav ul li {
     background-color: black;
     position: fixed;
     top: 0;
-    width: 99.6%;
+    width: 100%;
     border-style: inset;
     border-color: #b2dbac;
     border-width: 2px;
