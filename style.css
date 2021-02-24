@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: #d6f5d6;
+    background-color: #e06965;
     margin: 0;
     height: 100%;
     font-family: tahoma;
@@ -11,10 +11,10 @@ body {
 
   article {
     color: black;
-    background-color: hsla(196, 100%, 50%, .9); 
-    border-width: 1px;
-    border-style: double;
-    border-radius: 5px;
+    background-color: #b2dbac;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 8px;
     padding: 20px;
     width: 90% ;
   }
@@ -36,14 +36,25 @@ body {
     text-align: center;
   }
 
+  
+nav ul {
+    margin: 10px;
+    padding: 0px;
+    list-style: none;
+  }
+
+nav ul li {
+    display: inline-block;
+  }
+
   #nav1 {
     overflow: hidden;
     background-color: black;
-    position:fixed;
+    position: fixed;
     top: 0;
-    width: 99.7%;
-    border-style:inset;
-    border-color: hsla(196, 100%, 50%, .9);
+    width: 99.6%;
+    border-style: inset;
+    border-color: #b2dbac;
     border-width: 2px;
   }
 
@@ -56,10 +67,6 @@ body {
     text-decoration: none;
   }
 
-  nav ul li {
-      display: inline-block;
-  }
-
   section {
     width: 95%;
     margin: 0 auto;
@@ -69,16 +76,16 @@ body {
 
   section img {
     float:right;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 10px;
     display: inline;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    margin-top: 10px;
+    margin-top: 30px;
     max-width: 500px;
-    border-width: 1px;
-    border-style:double;
+    border-width: 4px;
+    border-style: solid;
     }
   
   footer {
@@ -103,6 +110,11 @@ body {
   a:hover, a:active {
     display: inline;
     color: black;
-    background-color: #d6f5d6;
-     }
+    background-color: #b2dbac;
+  }
   
+  footer {
+      background-color:hsla(196, 100%, 50%, .9);
+      border-style: solid;
+      border-color: black;
+  }
