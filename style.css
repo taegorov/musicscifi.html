@@ -9,4 +9,65 @@ body {
     font-family: tahoma;
   }
 
+  article {
+    color: black;
+  }
+
+  #header1 {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    background: black;
+    color: white;
+    text-shadow: 0px 0px 0px white;
+    text-align: center;
+  }
+
+  #navbar {
+    overflow: hidden;
+    background-color: black;
+    position:fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  section {
+    width: 95%;
+    margin: 0 auto;
+    padding: 5px;
+    min-height: 800px;
+  }
+
+  section img {
+    float:right;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 10px;
+    max-width: 500px;
+  }
+  
+  footer {
+    clear: left;
+    padding: 10px;
+    background: ; 
+    text-align: ;
+  }
+
+  a:link, a:visited {
+    background-color: black;
+    color: white;
+    border: 0px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a:hover, a:active {
+    color: black;
+    background-color: #d6f5d6;
+    }
   
