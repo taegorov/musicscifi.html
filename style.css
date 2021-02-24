@@ -32,8 +32,9 @@ body {
     margin-bottom: 5px;
     background: black;
     color: white;
-    text-shadow: 0px 0px 0px white;
+    text-shadow: 2px 2px 2px #e06965;
     text-align: center;
+    font-size: 30px;
   }
 
   
@@ -43,7 +44,7 @@ nav ul {
     list-style: none;
   }
 
-nav ul li {
+  nav ul li {
     display: inline-block;
   }
 
@@ -88,15 +89,7 @@ nav ul li {
     border-style: solid;
     }
   
-  footer {
-    clear: left;
-    text-align: center;
-    padding: 10px;
-    background: ; 
-    text-align: ;
-  }
-
-  a:link, a:visited {
+   a:link, a:visited {
     background-color: black;
     display: inline;
     color: white;
@@ -114,7 +107,10 @@ nav ul li {
   }
   
   footer {
-      background-color:hsla(196, 100%, 50%, .9);
-      border-style: solid;
-      border-color: black;
+    clear: left;
+    text-align: center;
+    padding: 10px;
+    background-color:hsla(196, 100%, 50%, .9);
+    border-style: solid;
+    border-color: black;
   }
