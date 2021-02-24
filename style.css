@@ -29,21 +29,23 @@ body {
     background-color: black;
     position:fixed;
     top: 0;
-    width: 100%;
+    width: 99.5%;
     border-style:inset;
-    border-color:hsla(0,50%, 100%, 0.5);
-    border-width: 5px;
+    border-color: hsla(196, 100%, 50%, .9);
+    border-width: 4px;
   }
 
-  #navbar a {
+  #navbar a href{
     float: left;
-    display: inline-block;
+    display: inline;
     text-align: center;
-    border-style: double;
-    border-color: white;
-    margin: 0px;
-    padding: 0px;
+    margin: 10px;
+    padding: 10px;
     text-decoration: none;
+  }
+
+  nav ul li {
+      display: inline-block;
   }
 
   section {
@@ -74,16 +76,18 @@ body {
 
   a:link, a:visited {
     background-color: black;
+    display: inline;
     color: white;
-    border: 0px solid green;
+    border: 1px solid white;
+    margin: 10px;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-  }
+   }
 
   a:hover, a:active {
+    display: inline;
     color: black;
     background-color: #d6f5d6;
-    }
+     }
   
