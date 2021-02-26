@@ -25,6 +25,39 @@ function getUserName(){
     return userName;
 }
 
+// validation portion
+function getBrains(){
+    let brains = prompt('Are you smart?')
+    let isCorrect = false
+    while (isCorrect != true){
+        if (brains == 'no'){
+            alert('YES YOU ARE!')
+        } else if (brains == 'yes'){
+            isCorrect = true
+            alert('Proud of you')
+        } else {
+            alert ('Enter yes or no')
+        }
+        if (isCorrect != true){
+            brains = prompt('Are you sure you\'re not smart?')
+        }
+    }
+    return brains;
+}
+
+//cat pic portion
+function getDogPic(){
+    let userAnswer = prompt('How good are dogs?')
+    if(userAnswer > 5){
+        userAnswer = 5
+    }
+    for (let i = 0; i < userAnswer; i++){
+        console.log(userAnswer);
+        document.write('<img src="https://png.clipart.me/previews/070/psd-vinyl-record-icon-45912.jpg">')
+    }
+}
+
+
 function getGood(){
     let price;
     let quantity;
